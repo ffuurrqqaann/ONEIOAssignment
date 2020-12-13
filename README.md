@@ -20,6 +20,6 @@ This is a maven based dockerized REST API project, which is build in Java8 and s
 For ease this project has been dockerized and there is a DockerFile in the project root directory. Port 8080 has been exposed and the project can be run by running the following commands.
 
 <b> docker build -f DockerFile -t fizzbuzz . </b>
-<b> docker run -p 8080:8080 fizzbuzz
+<b> docker run -p 8080:8080 fizzbuzz </b>
   
 The docker image has also been published on Docker Hub and can be found via url : https://hub.docker.com/r/furqanahmed1988/fizzbuzz
